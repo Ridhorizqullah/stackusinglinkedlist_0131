@@ -13,9 +13,15 @@ public:
 };
 
 // stack class
-class stack {
+class Stack {
+private:
+	Node* top;
 
-};
+public:
+	Stack() {
+		top = NULL;
+	}
+
 	
 
 
