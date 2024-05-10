@@ -43,9 +43,14 @@ public:
 	}
 
 
-
-
+	void peek() {
+	
+	
 };
+
+
+
+
 
 	
 
