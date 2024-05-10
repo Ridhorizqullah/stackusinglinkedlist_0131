@@ -2,12 +2,12 @@
 using namespace std;
 
 //node class merepresentasiakan single node di linked list
-class node {
+class Node {
 public:
 	int data;
-	node* next;
+	Node* next;
 
-	node() {
+	Node() {
 		next = NULL;
 	}
 };
@@ -15,12 +15,28 @@ public:
 // stack class
 class Stack {
 private:
-	Node* top;
+	Node* top; //pointer top node stack
 
 public:
 	Stack() {
-		top = NULL;
+		top = NULL; //intialize the stack with null top pointer
 	}
+
+	//push operation
+	int push(int value) {
+		Node* newNode = new Node();
+		newNode->data = value;
+		newNode->next = top;
+		top = newNode;
+		cout << "Push value: " << value << endl;
+		return value;
+	}
+	
+
+	
+
+
+
 
 	
 
