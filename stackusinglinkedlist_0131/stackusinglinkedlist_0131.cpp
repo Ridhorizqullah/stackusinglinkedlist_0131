@@ -31,7 +31,14 @@ public:
 		cout << "Push value: " << value << endl;
 		return value;
 	}
-	
+
+	//untuk menghapus
+	void pop() {
+
+
+	}
+
+};
 
 	
 
