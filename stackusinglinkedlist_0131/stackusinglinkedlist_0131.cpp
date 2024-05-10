@@ -65,6 +65,9 @@ public:
 };
 
 int main() {
+	Stack stack; //variabel stack
+
+	
 
 
 }
